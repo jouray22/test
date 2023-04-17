@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(153, 179, 203);
+    margin: 0;
+}
+.cabecera {
+    background-color: rgb(41, 127, 207);
+}
+.centrado {
+    margin: 0 auto;
+    padding: 0 1em;
+    border-style: solid;
+    color: #0aac3a;
+
+}
+@media screen and(min-width:52em) {
+    .centrado {
+        margin: 0 auto;
+        padding: 0 .8em;
+    }
+} /*fin media*/
+
+.menu-section {
+    padding-bottom: 2em; /* */ 
+    margin-bottom: 2em; /* */
+    border-bottom: 1px solid #b90f0f; /*241818 */
+}
+
+.menu-simple-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #4b4747;
+}
+
+.menu-simple-menu li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.6em 1em;
+}
+.menu-simple-menu ul {
+    display: flex; /**/
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.menu-simple-menu li a:hover {
+    background: hsl(0, 0%, 25%);
+}
+.menu-simple-menu li {
+    flex: 1 0 auto;
+    text-align: center;
+}
+
+/* NUEVO MENU */
+.menu-simple-menu2 ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #4b4747;
+}
+
+.menu-simple-menu2 li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.6em 1em;
+}
+.menu-simple-menu2 ul {
+    display: flex; /**/
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.menu-simple-menu2 li a:hover {
+    background: hsl(0, 0%, 25%);
+}
+.menu-simple-menu2 li {
+    flex: 1 0 auto;
+    text-align: center;
+}
+
+.titulo1 {
+    margin: 0 0 1em;
+    padding: 1em 0;
+    font-weight: 300;
+    color: rgb(156, 187, 214);
+    border-style: dotted;
+}
+.card a {
+    color: rgb(13, 216, 239);
+    text-decoration: none;
+}
+.card a:hover {
+    box-shadow: 3px 3px 8px hsl(0, 0%,70%);
+}
+.card-content {
+    padding: 1.4em;
+}
+.card-content h2{
+   margin-top: 0;
+   margin-bottom: .5em;
+   font-size: 90%;
+}
+.card-content p{
+   font-size: 90%;
+}
+figure {
+    margin: 1px;
+}
+img {
+    display: block;
+    border: 0;
+    width: 100%;
+    height: auto;
+}
+/*Empezamos con el flex*/
+.card {
+    background: hsl(0, 0%,100%);
+    margin-bottom: 2em;
+    width: 33%;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
